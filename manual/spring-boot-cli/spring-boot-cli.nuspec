@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>spring-boot-cli</id>
+    <version>2.0.4</version>
+    <owners>Paul Galbraith</owners>
+    <title>Spring Boot CLI</title>
+    <authors>Pivotal Software, Inc.</authors>
+    <projectUrl>https://spring.io/projects/spring-boot</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/paul-galbraith/chocolatey-packages/icons/spring-boot-cli.svg</iconUrl>
+    <copyright>2012-2018 the original author or authors</copyright>
+    <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/spring-projects/spring-boot</projectSourceUrl>
+    <docsUrl>https://docs.spring.io/spring-boot/docs/2.0.4.RELEASE/reference/html</docsUrl>
+    <mailingListUrl>https://gitter.im/spring-projects/spring-boot</mailingListUrl>
+    <bugTrackerUrl>https://github.com/spring-projects/spring-boot/issues</bugTrackerUrl>
+    <tags>spring boot build script xml java development</tags>
+    <summary>Spring Boot Command Line Interface</summary>
+    <description>This will install the Spring Boot CLI distribution to %ChocolateyInstall%\lib\spring-boot-cli and set an environment variables SPRING_HOME pointing to the install location.</description>
+    <releaseNotes>https://github.com/spring-projects/spring-boot/releases/tag/v2.0.4.RELEASE</releaseNotes>
+    <packageSourceUrl>https://github.com/paul-galbraith/chocolatey-packages/manual/spring-boot-cli</packageSourceUrl>
+    <dependencies>
+      <dependency id="jdk8" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

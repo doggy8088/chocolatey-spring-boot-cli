@@ -12,6 +12,7 @@
 *.handover
 *.new
 *.exist
+*.zip
 *-orig.*
 Thumbs.db
 .DS_Store
