@@ -17,7 +17,7 @@
     <bugTrackerUrl>https://github.com/spring-projects/spring-boot/issues</bugTrackerUrl>
     <tags>spring boot build script xml java development</tags>
     <summary>Spring Boot Command Line Interface</summary>
-    <description>This will install the Spring Boot CLI distribution to %ChocolateyInstall%\lib\spring-boot-cli and set an environment variables SPRING_HOME pointing to the install location.</description>
+    <description>This will install the Spring Boot CLI distribution to %ChocolateyInstall%\lib\spring-boot-cli and set the environment variable SPRING_HOME pointing to the install location.</description>
     <releaseNotes>https://github.com/spring-projects/spring-boot/releases/tag/v2.0.4.RELEASE</releaseNotes>
     <packageSourceUrl>https://github.com/paul-galbraith/chocolatey-packages/manual/spring-boot-cli</packageSourceUrl>
     <dependencies>
