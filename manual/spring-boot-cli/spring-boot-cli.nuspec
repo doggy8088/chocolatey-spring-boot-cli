@@ -24,4 +24,7 @@
       <dependency id="jdk8" />
     </dependencies>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
