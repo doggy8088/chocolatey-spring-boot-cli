@@ -6,7 +6,7 @@
     <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages</packageSourceUrl>
     <owners>Paul Galbraith</owners>
     <title>Spring Boot CLI</title>
-    <authors>Pivotal Software, Inc.</authors>
+    <authors>Pivotal Software Inc.</authors>
     <projectUrl>https://spring.io/projects/spring-boot</projectUrl>
     <iconUrl>https://cdn.rawgit.com/pgalbraith/chocolatey-packages/4519ed22/icons/spring-boot-cli.svg</iconUrl>
     <copyright>2012-2018 the original author or authors</copyright>
