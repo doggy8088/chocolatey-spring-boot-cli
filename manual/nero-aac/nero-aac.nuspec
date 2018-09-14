@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>nero-aac</id>
+    <version>1.5.4</version>
+    <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages</packageSourceUrl>
+    <owners>Paul Galbraith</owners>
+    <title>Nero AAC Codec</title>
+    <authors>Nero AG</authors>
+    <projectUrl>https://web.archive.org/web/20160304031341/http://www.nero.com/enu/company/about-nero/nero-aac-codec.php</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/pgalbraith/chocolatey-packages/3c86dee8/icons/nero.png</iconUrl>
+    <copyright>2009 Nero AG</copyright>
+    <licenseUrl>https://web.archive.org/web/20160304031341/http://www.nero.com/enu/company/about-nero/nero-aac-codec.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>http://wiki.hydrogenaud.io/index.php?title=Nero_AAC</docsUrl>
+    <tags>nero aac codec</tags>
+    <summary>Command line audio AAC encoder/decoder utility</summary>
+    <description>
+This will install the Nero AAC codec utilities to %ChocolateyInstall%\lib\nero-aac and make them available on the system path.  Note that despite being released as a package by Nero with the version 1.5.1, the encoder is actually v1.5.4 while the others are v1.5.1.  Some documentation links will also be installed in the start menu.
+
+- neroAacDec.exe (version 1.5.1.0)
+- neroAacEnc.exe (version 1.5.4.0)
+- neroAacTag.exe (version 1.5.1.0)
+
+For more information see:
+
+- [Hydrogenaudio](http://wiki.hydrogenaud.io/index.php?title=Nero_AAC)
+- [Wikipedia](https://en.wikipedia.org/wiki/Nero_AAC_Codec)
+- [Nero AG](https://web.archive.org/web/20160304031341/http://www.nero.com/enu/company/about-nero/nero-aac-codec.php) (orginal home page for these utilties)
+    </description>
+    <releaseNotes>https://web.archive.org/web/20160304031341/http://www.nero.com/enu/company/about-nero/nero-aac-codec.php</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
