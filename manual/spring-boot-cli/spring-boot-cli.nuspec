@@ -8,7 +8,7 @@
     <title>Spring Boot CLI</title>
     <authors>Pivotal Software Inc.</authors>
     <projectUrl>https://spring.io/projects/spring-boot</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/pgalbraith/chocolatey-packages/4519ed22/icons/spring-boot-cli.svg</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/pgalbraith/chocolatey-packages@6bb48f4df5aad485449cadd83eaa37e6944aa2b5/icons/spring-boot-cli.png</iconUrl>
     <copyright>2012-2018 the original author or authors</copyright>
     <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
