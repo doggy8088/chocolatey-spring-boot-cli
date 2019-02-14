@@ -8,7 +8,7 @@
     <title>Nero AAC Codec</title>
     <authors>Nero AG</authors>
     <projectUrl>https://web.archive.org/web/20160304031341/http://www.nero.com/enu/company/about-nero/nero-aac-codec.php</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/pgalbraith/chocolatey-packages/3c86dee8/icons/nero.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/pgalbraith/chocolatey-packages@8e85552801e01c67a0b549f6430852d0a49f5247/icons/nero-aac.png</iconUrl>
     <copyright>2009 Nero AG</copyright>
     <licenseUrl>https://web.archive.org/web/20160304031341/http://www.nero.com/enu/company/about-nero/nero-aac-codec.php</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
