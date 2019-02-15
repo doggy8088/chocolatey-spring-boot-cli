@@ -7,12 +7,12 @@
     <owners>Paul Galbraith</owners>
     <title>Fluent Terminal</title>
     <authors>https://github.com/felixse/FluentTerminal/graphs/contributors</authors>
-    <projectUrl>https://github.com/felixse/FluentTerminal</projectUrl>
+    <projectUrl>https://github.com/felixse/FluentTerminal/blob/master/README.md</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/pgalbraith/chocolatey-packages@7d9a499569927b1779074ebf8b5f30cab448afb9/icons/fluent-terminal.png</iconUrl>
     <licenseUrl>https://raw.githubusercontent.com/felixse/FluentTerminal/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/felixse/FluentTerminal</projectSourceUrl>
-    <docsUrl>https://github.com/felixse/FluentTerminal</docsUrl>
+    <docsUrl>https://github.com/felixse/FluentTerminal/blob/master/README.md</docsUrl>
     <mailingListUrl>https://gitter.im/FluentTerminal</mailingListUrl>
     <bugTrackerUrl>https://github.com/felixse/FluentTerminal/issues</bugTrackerUrl>
     <tags>fluent terminal emulator shell console powershell cmd wsl</tags>
