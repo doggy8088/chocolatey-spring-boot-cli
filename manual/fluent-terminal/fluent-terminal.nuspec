@@ -22,6 +22,9 @@ A Terminal Emulator based on UWP and web technologies.
 Note that this is a sideloaded Windows Store package, so at least Windows 8 is required.
     </description>
     <releaseNotes>https://github.com/felixse/FluentTerminal/releases/tag/0.3.1.0</releaseNotes>
+    <dependencies>
+      <dependency id="PowerShell" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
