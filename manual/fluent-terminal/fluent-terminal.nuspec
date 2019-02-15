@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>fluent-terminal</id>
+    <version>0.3.1.0</version>
+    <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages</packageSourceUrl>
+    <owners>Paul Galbraith</owners>
+    <title>Fluent Terminal</title>
+    <authors>https://github.com/felixse/FluentTerminal/graphs/contributors</authors>
+    <projectUrl>https://github.com/felixse/FluentTerminal</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/pgalbraith/chocolatey-packages@7d9a499569927b1779074ebf8b5f30cab448afb9/icons/fluent-terminal.png</iconUrl>
+    <licenseUrl>https://raw.githubusercontent.com/felixse/FluentTerminal/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/felixse/FluentTerminal</projectSourceUrl>
+    <docsUrl>https://github.com/felixse/FluentTerminal</docsUrl>
+    <mailingListUrl>https://gitter.im/FluentTerminal</mailingListUrl>
+    <bugTrackerUrl>https://github.com/felixse/FluentTerminal/issues</bugTrackerUrl>
+    <tags>fluent terminal emulator shell console powershell cmd wsl</tags>
+    <summary>Windows console replacement</summary>
+    <description>
+A Terminal Emulator based on UWP and web technologies.
+Note that this is a sideloaded Windows Store package, so at least Windows 8 is required.
+    </description>
+    <releaseNotes>https://github.com/felixse/FluentTerminal/releases/tag/0.3.1.0</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
