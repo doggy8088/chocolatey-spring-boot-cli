@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>safari</id>
+    <version>5.1.7.2</version>
+    <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages</packageSourceUrl>
+    <owners>Paul Galbraith</owners>
+    <title>Safari for Windows (Install)</title>
+    <authors>Apple Corp.</authors>
+    <projectUrl>https://web.archive.org/web/20120510215530/http://www.apple.com/safari/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/pgalbraith/chocolatey-packages@99a7206b13eeba92b9059b4f36c869620ef0c510/icons/safari.png</iconUrl>
+    <copyright>2012</copyright>
+    <licenseUrl>https://www.apple.com/legal/sla/docs/SafariWindows.pdf</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>apple safari web browser</tags>
+    <summary>Safari 5 Web Browser for Windows</summary>
+    <description>Though Apple has discontinued Windows support for Safari, the last Windows version (v5.1.7) is still available for download from Apple CDN.</description>
+    <releaseNotes>
+Apple support articles:
+- [http://support.apple.com/kb/DL1531](https://web.archive.org/web/20120510221912/http://support.apple.com/kb/DL1531)
+- [http://support.apple.com/kb/HT5282](https://web.archive.org/web/20120513041510/http://support.apple.com/kb/HT5282)
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
