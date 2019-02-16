@@ -9,7 +9,7 @@
     <authors>Chris Lovett</authors>
     <projectUrl>https://archive.codeplex.com/?p=xmlnotepad</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/pgalbraith/chocolatey-packages@8dc2642d1b4bf80c0c116b26bada117176ab07d7/icons/xml-notepad.png</iconUrl>
-    <copyright>2016</copyright>
+    <copyright>2006 Microsoft Corporation, 2016 Chris Lovett</copyright>
     <licenseUrl>https://raw.githubusercontent.com/Microsoft/XmlNotepad/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/Microsoft/XmlNotepad</projectSourceUrl>
