@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>xml-notepad</id>
+    <version>2.7.1.21</version>
+    <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages</packageSourceUrl>
+    <owners>mooglie</owners>
+    <title>XML Notepad</title>
+    <authors>Chris Lovett</authors>
+    <projectUrl>https://archive.codeplex.com/?p=xmlnotepad</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/pgalbraith/chocolatey-packages@8dc2642d1b4bf80c0c116b26bada117176ab07d7/icons/xml-notepad.png</iconUrl>
+    <copyright>2016</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/Microsoft/XmlNotepad/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/Microsoft/XmlNotepad</projectSourceUrl>
+    <docsUrl>https://github.com/Microsoft/XmlNotepad/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/Microsoft/XmlNotepad/issues</bugTrackerUrl>
+    <tags>xml-notepad xml notepad editor</tags>
+    <summary>A simple XML editor.</summary>
+    <description>
+[XML Notepad](https://github.com/Microsoft/XmlNotepad/wiki) provides a simple
+intuitive User Interface for browsing and editing XML documents. According to
+the author's site, this Dotnet 4.0 is required, which should already be
+installed with Chocolatey. Please let the maintainer know if you encounter any
+issues.
+
+This package supersedes the older [XmlNotepad](https://chocolatey.org/packages/XmlNotepad)
+package which is now deprecated.
+    </description>
+    <releaseNotes>http://www.lovettsoftware.com/downloads/xmlnotepad/Updates.xml</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
