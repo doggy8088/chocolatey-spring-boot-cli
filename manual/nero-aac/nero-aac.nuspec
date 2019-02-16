@@ -4,7 +4,7 @@
     <id>nero-aac</id>
     <version>1.5.4</version>
     <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages</packageSourceUrl>
-    <owners>Paul Galbraith</owners>
+    <owners>mooglie</owners>
     <title>Nero AAC Codec</title>
     <authors>Nero AG</authors>
     <projectUrl>https://web.archive.org/web/20160304031341/http://www.nero.com/enu/company/about-nero/nero-aac-codec.php</projectUrl>

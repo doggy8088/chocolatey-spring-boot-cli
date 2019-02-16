@@ -2,5 +2,5 @@ $ErrorActionPreference = 'Stop';
 $programsDir = "$([environment]::GetFolderPath([environment+specialfolder]::CommonPrograms))"
 
 if ($programsDir) {
-  Remove-Item -Recurse "$programsDir\Nero AAC Codec"
+  Start-ChocolateyProcessAsAdmin "Remove-Item `"$programsDir\Nero AAC Codec`" -Recurse"
 }

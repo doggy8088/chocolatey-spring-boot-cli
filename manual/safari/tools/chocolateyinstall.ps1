@@ -7,15 +7,9 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'EXE'
   url           = $url
-  url64bit      = $url64
-
-  softwareName  = 'safari*'
-
+  softwareName  = 'Safari'
   checksum      = '155BB96BC972F227C563E2C3DB12EA00D212AF6C1FE882E0E944D6B5E1AAA3EE'
   checksumType  = 'sha256'
-  checksum64    = ''
-  checksumType64= 'sha256'
-
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
   validExitCodes= @(0, 3010, 1641)
 }

@@ -4,7 +4,7 @@
     <id>fluent-terminal</id>
     <version>0.3.1.0</version>
     <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages</packageSourceUrl>
-    <owners>Paul Galbraith</owners>
+    <owners>mooglie</owners>
     <title>Fluent Terminal</title>
     <authors>https://github.com/felixse/FluentTerminal/graphs/contributors</authors>
     <projectUrl>https://github.com/felixse/FluentTerminal/blob/master/README.md</projectUrl>

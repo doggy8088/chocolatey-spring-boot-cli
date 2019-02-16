@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>safari</id>
-    <version>5.1.7.2</version>
+    <version>5.1.7.1</version>
     <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages</packageSourceUrl>
-    <owners>Paul Galbraith</owners>
-    <title>Safari for Windows (Install)</title>
+    <owners>mooglie</owners>
+    <title>Safari for Windows</title>
     <authors>Apple Corp.</authors>
     <projectUrl>https://web.archive.org/web/20120510215530/http://www.apple.com/safari/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/pgalbraith/chocolatey-packages@99a7206b13eeba92b9059b4f36c869620ef0c510/icons/safari.png</iconUrl>
