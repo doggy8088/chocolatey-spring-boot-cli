@@ -13,11 +13,6 @@ $packageArgs = @{
 
   softwareName  = 'XML Notepad'
 
-  checksum      = ''
-  checksumType  = 'sha256'
-  checksum64    = ''
-  checksumType64= 'sha256'
-
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
   validExitCodes= @(0, 3010, 1641)
 }

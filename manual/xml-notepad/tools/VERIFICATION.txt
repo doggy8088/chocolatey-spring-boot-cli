@@ -1,4 +1,3 @@
 VERIFICATION
 
-Validate against standalone installer from author's distribution site linked
-at https://github.com/Microsoft/XmlNotepad/wiki.
+Validate against standalone installer from author's distribution site linked at https://github.com/Microsoft/XmlNotepad/wiki
