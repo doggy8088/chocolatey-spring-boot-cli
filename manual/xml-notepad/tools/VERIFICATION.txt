@@ -1,6 +1,7 @@
 VERIFICATION
 
-Validate against standalone installer from author's distribution site linked at https://github.com/Microsoft/XmlNotepad/wiki
+Validate against standalone installer from author's distribution site linked at 'https://github.com/Microsoft/XmlNotepad/wiki'.
+Install the curl, 7zip and checksum packages.  Then you can check the original checksums as follows:
 
   'curl http://www.lovettsoftware.com/downloads/xmlnotepad/xmlnotepadsetup.zip --output setup.zip'
   '7z x setup.zip'
