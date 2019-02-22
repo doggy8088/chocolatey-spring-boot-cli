@@ -1,3 +1,15 @@
 VERIFICATION
 
 Validate against standalone installer from author's distribution site linked at https://github.com/Microsoft/XmlNotepad/wiki
+
+  'curl http://www.lovettsoftware.com/downloads/xmlnotepad/xmlnotepadsetup.zip --output setup.zip'
+  '7z x setup.zip'
+  'checksum cab1.cab -t sha256'
+  'checksum XmlNotepadSetup.msi -t sha256'
+  'checksum XmlNotepadSetup.wixpdb -t sha256'
+
+Verify the checksums against packaged install files (replace with actual checkums obtained above), e.g.:
+
+  'checksum C:\ProgramData\Chocolatey\lib\xml-notepad\tools\cab1.cab -t sha256 -c D394AF4D956E282CDFA115B303CEC3982CBCF80602682F1A5237F311372AD693'
+  'checksum C:\ProgramData\Chocolatey\lib\xml-notepad\tools\XmlNotepadSetup.msi -t sha256 -c 38A946D59A24643F56777319C8E45D31B9ABF0DCE4C2D05499978E29FB3011FE'
+  'checksum C:\ProgramData\Chocolatey\lib\xml-notepad\tools\XmlNotepadSetup.wixpdb -t sha256 -c A310AC2BDF96F21D249071BDF76851358F5328F1E335C0C8E365D443265068C8'

@@ -7,8 +7,6 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'MSI'
-  url           = $url
-  url64bit      = $url64
   file          = $fileLocation
 
   softwareName  = 'XML Notepad'
