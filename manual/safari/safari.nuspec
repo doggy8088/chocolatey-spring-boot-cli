@@ -4,12 +4,12 @@
     <id>safari</id>
     <version>5.1.7.1</version>
     <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages</packageSourceUrl>
-    <owners>mooglie</owners>
+    <owners>jivkok, stinaq, mooglie</owners>
     <title>Safari for Windows</title>
     <authors>Apple Corp.</authors>
     <projectUrl>https://web.archive.org/web/20120510215530/http://www.apple.com/safari/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/pgalbraith/chocolatey-packages@99a7206b13eeba92b9059b4f36c869620ef0c510/icons/safari.png</iconUrl>
-    <copyright>2012</copyright>
+    <copyright>2012 Apple Inc.</copyright>
     <licenseUrl>https://www.apple.com/legal/sla/docs/SafariWindows.pdf</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <tags>apple safari web browser</tags>
