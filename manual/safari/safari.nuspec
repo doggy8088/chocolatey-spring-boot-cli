@@ -6,15 +6,20 @@
     <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages</packageSourceUrl>
     <owners>jivkok, stinaq, mooglie</owners>
     <title>Safari for Windows</title>
-    <authors>Apple Corp.</authors>
-    <projectUrl>https://web.archive.org/web/20120510215530/http://www.apple.com/safari/</projectUrl>
+    <authors>Apple Inc.</authors>
+    <projectUrl>http://www.apple.com/safari/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/pgalbraith/chocolatey-packages@99a7206b13eeba92b9059b4f36c869620ef0c510/icons/safari.png</iconUrl>
     <copyright>2012 Apple Inc.</copyright>
     <licenseUrl>https://www.apple.com/legal/sla/docs/SafariWindows.pdf</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <tags>apple safari web browser</tags>
     <summary>Safari 5 Web Browser for Windows</summary>
-    <description>Though Apple has discontinued Windows support for Safari, the last Windows version (v5.1.7) is still available for download from Apple CDN.</description>
+    <description>
+# Safari 5 for Windows
+This is the latest version of Safari that is available for the Windows platform. The last version of the Apple's website which refers to this version of Safari can be viewed at the [Internet Archive](https://web.archive.org/web/20120510215530/http://www.apple.com/safari/).
+## Discontinued Status
+In 2012 Apple discontinued Windows support for Safari, and this is the last version of Safari that was release for Windows. Despite no longer refercing the Windows version on the main Safari website, the last Windows version is still available for download from Apple CDN servers.
+    </description>
     <releaseNotes>
 Apple support articles:
 - [http://support.apple.com/kb/DL1531](https://web.archive.org/web/20120510221912/http://support.apple.com/kb/DL1531)
