@@ -16,9 +16,9 @@
     <summary>Safari 5 Web Browser for Windows</summary>
     <description>
 # Safari 5 for Windows
-This is the latest version of Safari that is available for the Windows platform. The last version of the Apple's website which refers to this version of Safari can be viewed at the [Internet Archive](https://web.archive.org/web/20120510215530/http://www.apple.com/safari/).
+This is the latest version of Safari that is available for the Windows platform. The last version of Apple's website which refers to this can be viewed at the [Internet Archive](https://web.archive.org/web/20120510215530/http://www.apple.com/safari/).
 ## Discontinued Status
-In 2012 Apple discontinued Windows support for Safari, and this is the last version of Safari that was release for Windows. Despite no longer refercing the Windows version on the main Safari website, the last Windows version is still available for download from Apple CDN servers.
+In 2012 Apple discontinued Windows support for Safari. Despite no longer actively supporting or referring to it, Apple does make this last Windows version available for download from its CDN.
     </description>
     <releaseNotes>
 Apple support articles:
