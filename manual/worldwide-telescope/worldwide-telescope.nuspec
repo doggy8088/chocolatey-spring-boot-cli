@@ -6,10 +6,10 @@
     <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages</packageSourceUrl>
     <owners>mooglie</owners>
     <title>WorldWide Telescope Windows Client</title>
-    <authors>mooglie</authors>
+    <authors>Microsoft Corp.</authors>
     <projectUrl>http://www.worldwidetelescope.org/Home</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/pgalbraith/chocolatey-packages@467ff121e6fb09475e3541af6f8230dd2b36529e/icons/worldwide-telescope.png</iconUrl>
-    <copyright>2016 .NET Foundation</copyright>
+    <copyright>2002 Microsoft Corp., 2016 .NET Foundation</copyright>
     <licenseUrl>https://github.com/WorldWideTelescope/wwt-windows-client/blob/master/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/WorldWideTelescope/wwt-windows-client</projectSourceUrl>
