@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>fluent-terminal</id>
-    <version>0.3.1.0</version>
+    <version>0.4.0.0</version>
     <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages</packageSourceUrl>
     <owners>mooglie</owners>
     <title>Fluent Terminal</title>
@@ -18,10 +18,13 @@
     <tags>fluent terminal emulator shell console powershell cmd wsl</tags>
     <summary>Windows console replacement</summary>
     <description>
-A Terminal Emulator based on UWP and web technologies.
-Note that this is a sideloaded Windows Store package, so at least Windows 8 is required.
+A Terminal Emulator based on UWP and web technologies. Note that this is a sideloaded Windows Store package, and Windows 10 is required.
+
+## Windows 10 Developer Mode
+
+*You must have [Developer Mode](https://docs.microsoft.com/en-us/windows/uwp/get-started/enable-your-device-for-development) enabled for the installation to succeed.*
     </description>
-    <releaseNotes>https://github.com/felixse/FluentTerminal/releases/tag/0.3.1.0</releaseNotes>
+    <releaseNotes>https://github.com/felixse/FluentTerminal/releases/tag/0.4.0.0</releaseNotes>
     <dependencies>
       <dependency id="PowerShell" />
     </dependencies>

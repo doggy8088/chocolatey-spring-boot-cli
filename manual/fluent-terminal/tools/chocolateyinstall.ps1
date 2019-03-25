@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop'; # stop on all errors
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installDir = "$env:ChocolateyPackageFolder\install"
-$packageZip = "$toolsDir\FluentTerminal.App_0.3.1.0_Test.zip"
+$packageZip = "$toolsDir\FluentTerminal.App_0.4.0.0_Test.zip"
 
 # The following version check code is lifted straight from the 'powershell' install script
 
@@ -30,12 +30,6 @@ if( ([version]$osVersion).Major -eq "10" ) {
 }
 
 switch ($osversionLookup[$osVersion]) {
-    "Win8/2012" {
-        # Ok
-    }
-    "Win8.1/2012R2" {
-        # Ok
-    }
     "Windows 10/Server 2016" {
         # Ok
     }
@@ -48,6 +42,5 @@ switch ($osversionLookup[$osVersion]) {
 # Version check OK, go ahead and install
 Get-ChocolateyUnzip $packageZip $installDir
 Remove-Item $packageZip
-Move-Item -Path "$toolsDir\Install.ps1" -Destination $installDir -Force
-Start-ChocolateyProcessAsAdmin "& `"$installDir\Install.ps1`" -Force -ForceContextMenu" -Minimized -ValidExitCodes @(0)
+& "$installDir\Install.ps1" -Force -ForceContextMenu
 Remove-Item $installDir -Recurse
