@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop'; # stop on all errors
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installDir = "$env:ChocolateyPackageFolder\install"
-$packageZip = "$toolsDir\FluentTerminal.App_0.4.0.0_Test.zip"
+$packageZip = "$toolsDir\FluentTerminal.App_0.4.1.0_Test.zip"
 
 # The following version check code is lifted straight from the 'powershell' install script
 
@@ -40,7 +40,11 @@ switch ($osversionLookup[$osVersion]) {
 }
 
 # Version check OK, go ahead and install
+echo "Enabling App Sideloading"
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" /t REG_DWORD /f /v "AllowAllTrustedApps" /d "1"
 Get-ChocolateyUnzip $packageZip $installDir
 Remove-Item $packageZip
 & "$installDir\Install.ps1" -Force -ForceContextMenu
+if ( -not $? ) { Exit 1 }
 Remove-Item $installDir -Recurse
+echo "Installation complete"
