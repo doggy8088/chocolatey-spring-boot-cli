@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop'; # stop on all errors
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installDir = "$env:ChocolateyPackageFolder\install"
-$packageZip = "$toolsDir\FluentTerminal.App_0.5.2.0_Test.zip"
+$packageZip = "$toolsDir\FluentTerminal.App_0.5.3.0_Test.zip"
 
 # The following version check code is lifted straight from the 'powershell' install script
 

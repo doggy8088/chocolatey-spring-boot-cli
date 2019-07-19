@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>fluent-terminal</id>
-    <version>0.5.2.0</version>
+    <version>0.5.3.0</version>
     <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages</packageSourceUrl>
     <owners>mooglie</owners>
     <title>Fluent Terminal</title>
@@ -24,7 +24,7 @@ A Terminal Emulator based on UWP and web technologies. Note that this is a sidel
 
 This package will turn on [App Sideloading](https://docs.microsoft.com/en-us/windows/uwp/get-started/enable-your-device-for-development) on the installation machine.  *Please note that this feature will not be disabled upon uninstalling this package*.  If you wish you disable [App Sideloading](https://docs.microsoft.com/en-us/windows/uwp/get-started/enable-your-device-for-development) after uninstalling this package, you must do so manually.
     </description>
-    <releaseNotes>https://github.com/felixse/FluentTerminal/releases/tag/0.5.2.0</releaseNotes>
+    <releaseNotes>https://github.com/felixse/FluentTerminal/releases/tag/0.5.3.0</releaseNotes>
     <dependencies>
       <dependency id="PowerShell" />
     </dependencies>
