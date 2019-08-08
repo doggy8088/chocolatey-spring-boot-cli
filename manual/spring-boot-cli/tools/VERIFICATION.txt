@@ -1,3 +1,3 @@
 To verify, compare with the binary from the vendor's official distribution point:
 
-https://docs.spring.io/spring-boot/docs/2.1.6.RELEASE/reference/html/getting-started-installing-spring-boot.html#getting-started-manual-cli-installation
+https://docs.spring.io/spring-boot/docs/2.1.7.RELEASE/reference/html/getting-started-installing-spring-boot.html#getting-started-manual-cli-installation

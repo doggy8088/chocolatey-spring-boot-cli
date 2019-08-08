@@ -1,2 +1,2 @@
-curl https://repo.spring.io/release/org/springframework/boot/spring-boot-cli/2.1.6.RELEASE/spring-boot-cli-2.1.6.RELEASE-bin.zip --output spring-boot-cli-2.1.6.RELEASE-bin.zip
-7z x spring-boot-cli-2.1.6.RELEASE-bin.zip
+curl https://repo.spring.io/release/org/springframework/boot/spring-boot-cli/2.1.7.RELEASE/spring-boot-cli-2.1.7.RELEASE-bin.zip --output spring-boot-cli-2.1.7.RELEASE-bin.zip
+7z x spring-boot-cli-2.1.7.RELEASE-bin.zip
