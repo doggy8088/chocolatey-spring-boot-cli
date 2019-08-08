@@ -7,7 +7,7 @@
     <owners>mooglie</owners>
     <title>XML Notepad</title>
     <authors>Microsoft Corporation, Chris Lovett</authors>
-    <projectUrl>https://github.com/microsoft/xmlnotepad/wiki</projectUrl>
+    <projectUrl>https://github.com/microsoft/XmlNotepad</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/pgalbraith/chocolatey-packages@8dc2642d1b4bf80c0c116b26bada117176ab07d7/icons/xml-notepad.png</iconUrl>
     <copyright>2006 Microsoft Corporation, 2016 Chris Lovett</copyright>
     <licenseUrl>https://raw.githubusercontent.com/Microsoft/XmlNotepad/master/LICENSE</licenseUrl>
