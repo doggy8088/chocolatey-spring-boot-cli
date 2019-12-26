@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>xml-notepad</id>
-    <version>2.8.0.8</version>
+    <version>2.8.0.7</version>
     <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages</packageSourceUrl>
     <owners>mooglie</owners>
     <title>XML Notepad</title>
@@ -13,7 +13,7 @@
     <licenseUrl>https://raw.githubusercontent.com/Microsoft/XmlNotepad/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/Microsoft/XmlNotepad</projectSourceUrl>
-    <docsUrl>https://github.com/Microsoft/XmlNotepad/wiki</docsUrl>
+    <!-- <docsUrl>https://github.com/Microsoft/XmlNotepad/wiki</docsUrl> -->
     <bugTrackerUrl>https://github.com/Microsoft/XmlNotepad/issues</bugTrackerUrl>
     <tags>xml-notepad xml notepad editor</tags>
     <summary>A simple XML editor.</summary>
