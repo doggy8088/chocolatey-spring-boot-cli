@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>spring-boot-cli</id>
-    <version>2.2.1</version>
+    <version>2.1.11</version>
     <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages</packageSourceUrl>
     <owners>mooglie</owners>
     <title>Spring Boot CLI</title>
@@ -13,19 +13,19 @@
     <licenseUrl>https://raw.githubusercontent.com/spring-projects/spring-boot/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/spring-projects/spring-boot</projectSourceUrl>
-    <docsUrl>https://docs.spring.io/spring-boot/docs/2.2.1.RELEASE/reference/html</docsUrl>
+    <docsUrl>https://docs.spring.io/spring-boot/docs/2.1.11.RELEASE/reference/html</docsUrl>
     <mailingListUrl>https://gitter.im/spring-projects/spring-boot</mailingListUrl>
     <bugTrackerUrl>https://github.com/spring-projects/spring-boot/issues</bugTrackerUrl>
     <tags>spring boot build script xml java development</tags>
     <summary>Spring Boot Command Line Interface</summary>
     <description>This will install the Spring Boot CLI distribution to `%ChocolateyInstall%\lib\spring-boot-cli` and set the environment variable `SPRING_HOME` pointing to the install location.</description>
-    <releaseNotes>https://github.com/spring-projects/spring-boot/releases/tag/v2.2.1.RELEASE</releaseNotes>
+    <releaseNotes>https://github.com/spring-projects/spring-boot/releases/tag/v2.1.11.RELEASE</releaseNotes>
     <dependencies>
       <dependency id="jdk8" />
     </dependencies>
   </metadata>
   <files>
-    <file src="spring-2.2.1.RELEASE\**" target="spring-2.2.1.RELEASE" />
+    <file src="spring-2.1.11.RELEASE\**" target="spring-2.1.11.RELEASE" />
     <file src="tools\**" target="tools" />
   </files>
 </package>
