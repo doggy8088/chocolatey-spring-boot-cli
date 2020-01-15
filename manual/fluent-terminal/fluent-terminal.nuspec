@@ -3,7 +3,7 @@
   <metadata>
     <id>fluent-terminal</id>
     <version>0.6.1.0</version>
-    <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages</packageSourceUrl>
+    <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages/tree/master/manual/fluent-terminal</packageSourceUrl>
     <owners>mooglie</owners>
     <title>Fluent Terminal</title>
     <authors>https://github.com/felixse/FluentTerminal/graphs/contributors</authors>

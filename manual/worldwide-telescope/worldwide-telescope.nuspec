@@ -3,7 +3,7 @@
   <metadata>
     <id>worldwide-telescope</id>
     <version>5.5.0.3</version>
-    <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages</packageSourceUrl>
+    <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages/tree/master/manual/worldwide-telescope</packageSourceUrl>
     <owners>mooglie</owners>
     <title>WorldWide Telescope Windows Client</title>
     <authors>Microsoft Corp.</authors>

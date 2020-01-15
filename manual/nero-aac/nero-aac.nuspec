@@ -3,7 +3,7 @@
   <metadata>
     <id>nero-aac</id>
     <version>1.5.4</version>
-    <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages</packageSourceUrl>
+    <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages/tree/master/manual/nero-aac</packageSourceUrl>
     <owners>mooglie</owners>
     <title>Nero AAC Codec</title>
     <authors>Nero AG</authors>

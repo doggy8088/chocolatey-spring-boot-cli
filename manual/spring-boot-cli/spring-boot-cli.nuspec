@@ -3,7 +3,7 @@
   <metadata>
     <id>spring-boot-cli</id>
     <version>2.2.2</version>
-    <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages</packageSourceUrl>
+    <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages/tree/master/manual/spring-boot-cli</packageSourceUrl>
     <owners>mooglie</owners>
     <title>Spring Boot CLI</title>
     <authors>Pivotal Software Inc.</authors>

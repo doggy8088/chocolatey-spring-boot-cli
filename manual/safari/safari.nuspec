@@ -3,7 +3,7 @@
   <metadata>
     <id>safari</id>
     <version>5.1.7.2</version>
-    <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages</packageSourceUrl>
+    <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages/tree/master/manual/safari</packageSourceUrl>
     <owners>jivkok, stinaq, mooglie</owners>
     <title>Safari for Windows</title>
     <authors>Apple Inc.</authors>
