@@ -1,4 +1,4 @@
-# <img src="https://cdn.jsdelivr.net/gh/pgalbraith/chocolatey-packages@f4a7c156ac8a937b84a77a9a68b3680127959d31/icons/simh.png" width="48" height="48"/> [simh](https://chocolatey.org/packages/simh)
+# <img src="https://cdn.jsdelivr.net/gh/pgalbraith/chocolatey-packages@f4a7c156ac8a937b84a77a9a68b3680127959d31/icons/simh.png" width="48" height="48"/> [SimH](https://chocolatey.org/packages/simh)
 
 SimH (History Simulator) is a collection of simulators for historically significant or just plain interesting computer hardware and software from the past.  SimH implements simulators for:
 
