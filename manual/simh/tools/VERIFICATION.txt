@@ -1,0 +1,9 @@
+﻿
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Binaries can be directly compared (checksum or direct binary comparison)
+against the originals distributed by the author at:
+
+https://web.archive.org/web/20130702191627/http://simh.trailing-edge.com/sources/simhv39-0-exe.zip
