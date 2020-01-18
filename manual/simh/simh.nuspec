@@ -40,6 +40,7 @@ For any issues with this package, open a defect at https://github.com/pgalbraith
     </description>
   </metadata>
   <files>
+    <file src="simh-3.9.0\**" target="simh-3.9.0" />
     <file src="tools\**" target="tools" />
   </files>
 </package>
