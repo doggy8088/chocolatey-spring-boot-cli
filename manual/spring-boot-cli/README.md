@@ -1,12 +1,10 @@
-﻿# Chocolatey Package for Spring Boot CLI
+# <img src="https://cdn.jsdelivr.net/gh/pgalbraith/chocolatey-packages@6bb48f4df5aad485449cadd83eaa37e6944aa2b5/icons/spring-boot-cli.png" width="48" height="48"/> [spring-boot-cli](https://chocolatey.org/packages/spring-boot-cli)
 
-The binary distribution is not included in git, it needs to be downloaded before building the package.
+[Spring Boot](https://spring.io/projects/spring-boot) is a Java API and
+toolset.  [Spring Boot](https://spring.io/projects/spring-boot) makes it easy
+to create stand-alone, production-grade [Spring](https://spring.io/) based
+Applications that you can "just run".
 
-https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started-installing-spring-boot.html#getting-started-installing-the-cli
-
-Steps to build:
-
-1. Download (`download.cmd`)
-2. Package (`choco pack`)
-3. Test (`choco install spring-boot-cli -dv -s .` and `choco uninstall spring-boot-cli -dv`)
-4. Publish (`choco push`)
+This package will install the Spring Boot CLI distribution to
+`%ChocolateyInstall%\lib\spring-boot-cli` and set the environment variable
+`SPRING_HOME` pointing to the install location.
