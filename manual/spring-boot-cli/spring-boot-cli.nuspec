@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>spring-boot-cli</id>
-    <version>2.2.3</version>
+    <version>2.0.6</version>
     <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages/tree/master/manual/spring-boot-cli</packageSourceUrl>
     <owners>mooglie</owners>
     <title>Spring Boot CLI</title>
@@ -13,7 +13,7 @@
     <licenseUrl>https://raw.githubusercontent.com/spring-projects/spring-boot/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/spring-projects/spring-boot</projectSourceUrl>
-    <docsUrl>https://docs.spring.io/spring-boot/docs/2.2.3.RELEASE/reference/html</docsUrl>
+    <docsUrl>https://docs.spring.io/spring-boot/docs/2.0.6.RELEASE/reference/html</docsUrl>
     <mailingListUrl>https://gitter.im/spring-projects/spring-boot</mailingListUrl>
     <bugTrackerUrl>https://github.com/spring-projects/spring-boot/issues</bugTrackerUrl>
     <tags>spring boot build script xml java development</tags>
@@ -34,13 +34,13 @@ Please report any issues with this package at
 https://github.com/pgalbraith/chocolatey-packages.
 ]]>
     </description>
-    <releaseNotes>https://github.com/spring-projects/spring-boot/releases/tag/v2.2.3.RELEASE</releaseNotes>
+    <releaseNotes>https://github.com/spring-projects/spring-boot/releases/tag/v2.0.6.RELEASE</releaseNotes>
     <dependencies>
       <dependency id="jdk8" />
     </dependencies>
   </metadata>
   <files>
-    <file src="spring-2.2.3.RELEASE\**" target="spring-2.2.3.RELEASE" />
+    <file src="spring-2.0.6.RELEASE\**" target="spring-2.0.6.RELEASE" />
     <file src="tools\**" target="tools" />
   </files>
 </package>
