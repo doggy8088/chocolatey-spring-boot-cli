@@ -6,7 +6,7 @@
     <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages/tree/master/manual/fluent-terminal</packageSourceUrl>
     <owners>mooglie</owners>
     <title>Fluent Terminal</title>
-    <authors>https://github.com/felixse/FluentTerminal/graphs/contributors</authors>
+    <authors>Felix Seidl et al.</authors>
     <projectUrl>https://github.com/felixse/FluentTerminal/blob/master/README.md</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/pgalbraith/chocolatey-packages@7d9a499569927b1779074ebf8b5f30cab448afb9/icons/fluent-terminal.png</iconUrl>
     <licenseUrl>https://raw.githubusercontent.com/felixse/FluentTerminal/master/LICENSE</licenseUrl>
