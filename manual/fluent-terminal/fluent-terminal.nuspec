@@ -8,7 +8,7 @@
     <title>Fluent Terminal</title>
     <authors>Felix Seidl et al.</authors>
     <projectUrl>https://github.com/felixse/FluentTerminal/blob/master/README.md</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/pgalbraith/chocolatey-packages@7d9a499569927b1779074ebf8b5f30cab448afb9/icons/fluent-terminal.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/pgalbraith/chocolatey-packages@2afc469321f8f1a2310d64873ed02e4d8c5d4940/icons/fluent-terminal.png</iconUrl>
     <licenseUrl>https://raw.githubusercontent.com/felixse/FluentTerminal/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/felixse/FluentTerminal</projectSourceUrl>
