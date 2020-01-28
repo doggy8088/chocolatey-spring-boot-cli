@@ -27,6 +27,9 @@ For more information see:
 - [Hydrogenaudio](http://wiki.hydrogenaud.io/index.php?title=Nero_AAC)
 - [Wikipedia](https://en.wikipedia.org/wiki/Nero_AAC_Codec)
 - [Nero AG](https://web.archive.org/web/20160304031341/http://www.nero.com/enu/company/about-nero/nero-aac-codec.php) (original home page for these utilties)
+
+## Issues
+If you are having problems this package, please create a new issue at https://github.com/pgalbraith/chocolatey-packages/issues.
     </description>
     <releaseNotes>https://web.archive.org/web/20160304031341/http://www.nero.com/enu/company/about-nero/nero-aac-codec.php</releaseNotes>
   </metadata>

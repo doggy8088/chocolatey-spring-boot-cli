@@ -21,8 +21,10 @@
 A Terminal Emulator based on UWP and web technologies. Note that this is a sideloaded Windows Store App, and Windows 10 is required.
 
 ## Windows 10 App Sideloading
-
 This package will turn on [App Sideloading](https://docs.microsoft.com/en-us/windows/uwp/get-started/enable-your-device-for-development) on the installation machine.  *Please note that this feature will not be disabled upon uninstalling this package*.  If you wish you disable [App Sideloading](https://docs.microsoft.com/en-us/windows/uwp/get-started/enable-your-device-for-development) after uninstalling this package, you must do so manually.
+
+## Issues
+If you are having problems this package, please create a new issue at https://github.com/pgalbraith/chocolatey-packages/issues.
     </description>
     <releaseNotes>https://github.com/felixse/FluentTerminal/releases/tag/0.6.1.0</releaseNotes>
   </metadata>

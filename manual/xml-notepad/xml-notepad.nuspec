@@ -21,6 +21,9 @@
 [XML Notepad](https://github.com/Microsoft/XmlNotepad/wiki) provides a simple intuitive User Interface for browsing and editing XML documents. According to the author's site, the current version requires .NET Framework 4.0 (which should already be installed with Chocolatey). Please let the maintainer know if you encounter any issues.
 
 This package supersedes the older [XmlNotepad](https://chocolatey.org/packages/XmlNotepad) package which is now deprecated.
+
+## Issues
+If you are having problems this package, please create a new issue at https://github.com/pgalbraith/chocolatey-packages/issues.
     </description>
     <releaseNotes>http://www.lovettsoftware.com/downloads/xmlnotepad/Updates.xml</releaseNotes>
   </metadata>

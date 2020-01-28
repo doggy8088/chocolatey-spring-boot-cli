@@ -30,8 +30,7 @@ This package will install the Spring Boot CLI distribution to
 `SPRING_HOME` pointing to the install location.
 
 ## Issues
-Please report any issues with this package at
-https://github.com/pgalbraith/chocolatey-packages.
+If you are having problems this package, please create a new issue at https://github.com/pgalbraith/chocolatey-packages/issues.
 ]]>
     </description>
     <releaseNotes>https://github.com/spring-projects/spring-boot/releases/tag/v2.2.4.RELEASE</releaseNotes>
