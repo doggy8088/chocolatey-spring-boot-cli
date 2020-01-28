@@ -18,11 +18,12 @@
     <tags>worldwide-telescope worldwide world wide telescope astronomy</tags>
     <summary>WWT displays astronomical, earth and planetary data allowing visual navigation through the 3-dimensional (3D) Universe</summary>
     <description>
-# WorldWide Telescope
-
 The purpose of the American Astronomical Society's WorldWide Telescope project is to enable the seamless visualization and sharing of scientific data and stories from major telescopes, observatories, and institutions among students and researchers, through science museums and full-dome immersive planetariums, and in scholarly publications.
 
 When installed through Chocolatey, automatic updates for WWT will be disabled.
+
+## Issues
+If you are having problems this package, please create a new issue at https://github.com/pgalbraith/chocolatey-packages/issues.
     </description>
     <releaseNotes>http://www.worldwidetelescope.org/Learn/WhatsNew</releaseNotes>
   </metadata>
