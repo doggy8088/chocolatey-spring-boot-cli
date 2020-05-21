@@ -45,7 +45,30 @@ echo "Enabling App Sideloading"
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" /t REG_DWORD /f /v "AllowAllTrustedApps" /d "1"
 Get-ChocolateyUnzip $packageZip $installDir
 Remove-Item $packageZip
-& "$installDir\Install.ps1" -Force -ForceContextMenu
+mv $installScript $installDir
+
+$installed = Get-AppXPackage | Where-Object { $_.PackageFullName -match "FluentTerminal" }
+# Run the update script if we're already installed AND the current version is less than 0.7.0.0
+if( ($installed.length -gt 0) -And ($installed.version -match "^0\.[0-6]\.") ) {
+	# Inspired by the update script provided in the zip file, except we call the install script to make sure we have all the dependencies installed
+	
+	# Export settings
+	Invoke-Expression "flute settings --export"
+	Copy-Item "$env:LOCALAPPDATA\Packages\53621FSApps.FluentTerminal_87x1pks76srcp\LocalState\config.json" "$installDir/config.json"
+
+	foreach($app in $installed) {
+		Remove-AppXPackage $app
+	}
+
+	& "$installDir/Install" -Force -ForceContextMenu
+	
+	# Import settings
+	Copy-Item "$installDir/config.json" "$env:LOCALAPPDATA\Packages\53621FSApps.FluentTerminal_zzw7cgfsy6dd6\LocalState\config.json"
+
+	Invoke-Expression "flute settings --import"
+} else { # Else, simply install it
+	& "$installDir/Install" -Force -ForceContextMenu
+}
 if ( -not $? ) { Exit 1 }
 Remove-Item $installDir -Recurse
 echo "Installation complete"
