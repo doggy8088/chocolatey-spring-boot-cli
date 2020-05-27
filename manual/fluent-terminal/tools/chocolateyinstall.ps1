@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop'; # stop on all errors
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installDir = "$env:ChocolateyPackageFolder\install"
-$packageZip = "$toolsDir\FluentTerminal_0.7.0.0.zip"
+$packageZip = "$toolsDir\FluentTerminal_0.7.1.0.zip"
 $installScript = "$toolsDir\Install.ps1"
 
 # The following version check code is lifted straight from the 'powershell' install script
@@ -43,15 +43,19 @@ switch ($osversionLookup[$osVersion]) {
 # Version check OK, go ahead and install
 echo "Enabling App Sideloading"
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" /t REG_DWORD /f /v "AllowAllTrustedApps" /d "1"
+
 Get-ChocolateyUnzip $packageZip $installDir
 Remove-Item $packageZip
+# The install script coming along the package seems broken
+# See https://github.com/felixse/FluentTerminal/issues/770
+del "$installDir/Install.ps1"
 mv $installScript $installDir
-
+# Upgrading from 0.6.x.y and below requires a signature change
 $installed = Get-AppXPackage | Where-Object { $_.PackageFullName -match "FluentTerminal" }
-# Run the update script if we're already installed AND the current version is less than 0.7.0.0
 if( ($installed.length -gt 0) -And ($installed.version -match "^0\.[0-6]\.") ) {
-	# Inspired by the update script provided in the zip file, except we call the install script to make sure we have all the dependencies installed
-	
+	# Inspired by the update script provided in the zip file of v0.7.0.0,
+	# except we call the install script to make sure we have all the dependencies installed
+
 	# Export settings
 	Invoke-Expression "flute settings --export"
 	Copy-Item "$env:LOCALAPPDATA\Packages\53621FSApps.FluentTerminal_87x1pks76srcp\LocalState\config.json" "$installDir/config.json"
@@ -61,12 +65,11 @@ if( ($installed.length -gt 0) -And ($installed.version -match "^0\.[0-6]\.") ) {
 	}
 
 	& "$installDir/Install" -Force -ForceContextMenu
-	
+
 	# Import settings
 	Copy-Item "$installDir/config.json" "$env:LOCALAPPDATA\Packages\53621FSApps.FluentTerminal_zzw7cgfsy6dd6\LocalState\config.json"
-
 	Invoke-Expression "flute settings --import"
-} else { # Else, simply install it
+} else { # Else, just install the package
 	& "$installDir/Install" -Force -ForceContextMenu
 }
 if ( -not $? ) { Exit 1 }

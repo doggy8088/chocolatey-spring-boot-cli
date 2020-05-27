@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>fluent-terminal</id>
-    <version>0.7.0.0</version>
+    <version>0.7.1.0</version>
     <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages/tree/master/manual/fluent-terminal</packageSourceUrl>
     <owners>mooglie</owners>
     <title>Fluent Terminal</title>
     <authors>Felix Seidl et al.</authors>
     <projectUrl>https://github.com/felixse/FluentTerminal/blob/master/README.md</projectUrl>
-    <iconUrl>https://github.com/felixse/FluentTerminal/raw/0.7.0.0/Icons/Icon_no_margin.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/felixse/FluentTerminal/0.7.1.0/Icons/Icon_no_margin.png</iconUrl>
     <licenseUrl>https://raw.githubusercontent.com/felixse/FluentTerminal/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/felixse/FluentTerminal</projectSourceUrl>

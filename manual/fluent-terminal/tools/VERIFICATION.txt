@@ -1,5 +1,5 @@
 To verify, compare with the binary from the author's official distribution point:
-https://github.com/felixse/FluentTerminal/releases/tag/0.7.0.0
+https://github.com/felixse/FluentTerminal/releases/tag/0.7.1.0
 
 Also, check the Install script against the one in the Github repository
 https://raw.githubusercontent.com/felixse/FluentTerminal/0.7.0.0/Install.ps1
