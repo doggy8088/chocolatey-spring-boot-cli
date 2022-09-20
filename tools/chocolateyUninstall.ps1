@@ -1,5 +1,7 @@
-$toolsDir = Split-Path $MyInvocation.MyCommand.Definition
-$spring_home = Join-Path $env:ChocolateyPackageFolder "spring-2.7.3"
+$ErrorActionPreference = 'Stop'; # stop on all errors
 
-Uninstall-ChocolateyEnvironmentVariable "SPRING_HOME" Machine
+$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$rootPath   = "$(Split-Path -parent $toolsDir)"
+$spring_home = Join-Path $rootPath "spring-2.7.3"
+
 Uninstall-BinFile "spring" "$spring_home\bin\spring.bat"

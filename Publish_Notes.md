@@ -1,23 +1,31 @@
 ### Build
 
-```sh
-choco pack
-```
+1. Download Spring Boot CLI zip file
+
+    ```bat
+    download.cmd
+    ```
+
+2. Pack Nupkg file
+
+    ```sh
+    choco pack
+    ```
 
 ### Test Install
 
 ```sh
-choco install spring-boot-cli -d -s .
+choco install spring-boot-cli -d -s . -y
 ```
 
 ### Test Uninstall
 
 ```sh
-choco uninstall spring-boot-cli -d -s .
+choco uninstall spring-boot-cli -d -s . -y
 ```
 
 ### Publish package
 
 ```sh
-choco push spring-boot-cli-2.7.3.nupkg --source https://push.chocolatey.org/
+choco push spring-boot-cli.2.7.3.nupkg --source https://push.chocolatey.org/
 ```

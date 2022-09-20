@@ -5,6 +5,4 @@ toolset.  [Spring Boot](https://spring.io/projects/spring-boot) makes it easy
 to create stand-alone, production-grade [Spring](https://spring.io/) based
 Applications that you can "just run".
 
-This package will install the Spring Boot CLI distribution to
-`%ChocolateyInstall%\lib\spring-boot-cli` and set the environment variable
-`SPRING_HOME` pointing to the install location.
+This package will install the [Spring Boot CLI](https://docs.spring.io/spring-boot/docs/current/reference/html/cli.html) distribution to `%ChocolateyInstall%\lib\spring-boot-cli`.
