@@ -1,22 +1,22 @@
-### How to build package
+### Build
 
 ```sh
 choco pack
 ```
 
-### How to test install locally
+### Test Install
 
 ```sh
 choco install spring-boot-cli -d -s .
 ```
 
-### How to test uninstall locally
+### Test Uninstall
 
 ```sh
 choco uninstall spring-boot-cli -d -s .
 ```
 
-### Publish
+### Publish package
 
 ```sh
 choco push spring-boot-cli-2.7.3.nupkg --source https://push.chocolatey.org/
