@@ -2,18 +2,18 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>spring-boot-cli</id>
-    <version>2.2.4</version>
-    <packageSourceUrl>https://github.com/pgalbraith/chocolatey-packages/tree/master/manual/spring-boot-cli</packageSourceUrl>
-    <owners>mooglie</owners>
+    <version>2.7.3</version>
+    <packageSourceUrl>https://github.com/doggy8088/chocolatey-spring-boot-cli/tree/master/manual/spring-boot-cli</packageSourceUrl>
+    <owners>mooglie,willh</owners>
     <title>Spring Boot CLI</title>
     <authors>Pivotal Software Inc.</authors>
     <projectUrl>https://spring.io/projects/spring-boot</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/pgalbraith/chocolatey-packages@6bb48f4df5aad485449cadd83eaa37e6944aa2b5/icons/spring-boot-cli.png</iconUrl>
-    <copyright>2012-2019 the original author or authors</copyright>
+    <copyright>2012-2022 the original author or authors</copyright>
     <licenseUrl>https://raw.githubusercontent.com/spring-projects/spring-boot/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/spring-projects/spring-boot</projectSourceUrl>
-    <docsUrl>https://docs.spring.io/spring-boot/docs/2.2.4.RELEASE/reference/html</docsUrl>
+    <docsUrl>https://docs.spring.io/spring-boot/docs/2.7.3/reference/html/</docsUrl>
     <mailingListUrl>https://gitter.im/spring-projects/spring-boot</mailingListUrl>
     <bugTrackerUrl>https://github.com/spring-projects/spring-boot/issues</bugTrackerUrl>
     <tags>spring boot build script xml java development</tags>
@@ -33,13 +33,13 @@ This package will install the Spring Boot CLI distribution to
 If you are having problems this package, please create a new issue at https://github.com/pgalbraith/chocolatey-packages/issues.
 ]]>
     </description>
-    <releaseNotes>https://github.com/spring-projects/spring-boot/releases/tag/v2.2.4.RELEASE</releaseNotes>
-    <dependencies>
+    <releaseNotes>https://github.com/spring-projects/spring-boot/releases/tag/v2.7.3</releaseNotes>
+    <!-- <dependencies>
       <dependency id="jdk8" />
-    </dependencies>
+    </dependencies> -->
   </metadata>
   <files>
-    <file src="spring-2.2.4.RELEASE\**" target="spring-2.2.4.RELEASE" />
+    <file src="spring-2.7.3\**" target="spring-2.7.3" />
     <file src="tools\**" target="tools" />
   </files>
 </package>
