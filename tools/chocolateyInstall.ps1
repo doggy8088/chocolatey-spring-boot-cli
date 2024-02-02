@@ -2,6 +2,6 @@ $ErrorActionPreference = 'Stop'; # stop on all errors
 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $rootPath   = "$(Split-Path -parent $toolsDir)"
-$spring_home = Join-Path $rootPath "spring-2.7.3"
+$spring_home = Join-Path $rootPath "spring-3.2.2"
 
 Install-BinFile "spring" "$spring_home\bin\spring.bat"

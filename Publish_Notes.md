@@ -27,5 +27,5 @@ choco uninstall spring-boot-cli -d -s . -y
 ### Publish package
 
 ```sh
-choco push spring-boot-cli.2.7.3.nupkg --source https://push.chocolatey.org/
+choco push spring-boot-cli.3.2.2.nupkg --source https://push.chocolatey.org/
 ```
